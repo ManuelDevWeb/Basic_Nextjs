@@ -1,0 +1,15 @@
+** Insalación de Nextjs y preparación del proyecto **
+
+1. Crear la carpeta: projectNextjs
+
+2. Ejecutar:  npm init -y
+
+3. Ejecutar: npm install next react react-dom
+
+4. Agregar los scripts necesarios en el package.json
+
+5. Crear la carpeta: pages
+
+6. Iniciar proyecto: npm run dev
+
+** Rutas básicas **

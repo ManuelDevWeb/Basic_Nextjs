@@ -1,0 +1,26 @@
+Next.JS.
+-> Framework sencillo para crear aplicaciones React con SSR. 
+-> VueJS y Angular también tienen sus alternativas SSR.
+
+Características principales:
+-> Server Side Rendering.
+-> Code Splitting y Lazy Loading a los componentes, de esta forma
+   separa el código que no se utiliza en determinado componente,
+   pero cuando se utiliza ese componente lo carga.
+-> Routing en base a los archivos.
+-> Soporte para CSS.
+-> Hot Reload.
+-> URL's Limpias.
+
+Ventajas:
+-> Nos ahorramos algunas configuraciones de proyectos netos con React.js, no lidiamos
+   con la arquitectura de nuestros proyectos.
+-> Un sistema de enrutamiento intuitivo basado en páginas (con soporte para rutas dinámicas)
+-> La representación previa, tanto la generación estática (SSG) como la representación del 
+   lado del servidor (SSR) son compatibles por página
+-> División automática de código para cargas de página más rápidas
+-> Enrutamiento del lado del cliente con captura previa optimizada
+-> Compatibilidad con CSS y Sass incorporada, y compatibilidad con cualquier biblioteca CSS-in-JS
+-> Entorno de desarrollo con soporte Fast Refresh
+-> Rutas de API para crear endpoints (URL de las APIs) de API con funciones sin servidor
+-> Totalmente ampliable   
