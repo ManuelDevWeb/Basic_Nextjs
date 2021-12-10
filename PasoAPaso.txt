@@ -13,3 +13,27 @@
 6. Iniciar proyecto: npm run dev
 
 ** Rutas básicas **
+
+7. Crear la ruta estática: pages/index.js (Página inicial por defecto en Nextjs)
+
+8. Crear la ruta estática: pages/about.js
+
+9. Crear la carpeta: product
+
+10. Crear la ruta dinámica: pages/product/[id].js
+
+** Verificar SSR y Optimización ** 
+
+11. Ejecutar: npm run build
+
+12. Ejecutar: npm run start
+
+13. Inspeccionar código fuente o ir a las herramientas de google y ver la primera respuesta
+
+** Enlazando páginas ** 
+
+14. Crear la carpeta: components
+
+15. Crear la carpeta: components/Navbar
+
+16. Crear el componente: components/Navbar/Navbar.js
