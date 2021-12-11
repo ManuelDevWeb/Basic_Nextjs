@@ -1,10 +1,11 @@
 import { IncomingMessage, ServerResponse } from "http";
 
-import DB from '@database'
+import {Database as DB} from '@database'
 
 // Obtener todos los aguacates
 const allAvos=async (request: IncomingMessage, response: ServerResponse)=>{
     const db=new DB();
+    
     const allEntries=await db.getAll();
     const lenght=allEntries.length;
 

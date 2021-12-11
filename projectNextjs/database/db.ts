@@ -33,4 +33,4 @@ const randomDelay = () =>
     setTimeout(resolve, delay)
   })
 
-export default Database
+export {Database}

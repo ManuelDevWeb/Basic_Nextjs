@@ -20,7 +20,7 @@
 
 9. Crear la carpeta: product
 
-10. Crear la ruta dinámica: pages/product/[id].js
+10. Crear la ruta dinámica: pages/product/[productId].js
 
 ** Verificar SSR y Optimización ** 
 
@@ -63,8 +63,14 @@
 
 27. Crear la carpeta: pages/api/avo
 
-28. Crear el archivo: pages/api/avo/index.ts
+28. Crear la ruta estática: pages/api/avo/index.ts (http://localhost:3000/api/avo)
 
-29. Ir a la ruta: http://localhost:3000/api/avo
+29. Crear la ruta dinámica: pages/api/avo/[id].ts (http://localhost:3000/api/avo/2zd33b8c)
+
+** Debugging ** 
+
+3X. Agregar script: "dev:inspect": "npm --node-options=--inspect=0.0.0.0:9229 run dev"
+
+3x. Ejecutarlo e ir a: about:inspect
 
 
