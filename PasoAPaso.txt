@@ -37,3 +37,34 @@
 15. Crear la carpeta: components/Navbar
 
 16. Crear el componente: components/Navbar/Navbar.js
+
+** Configuración de TypeScript ** 
+
+17. Ejecutar: npm install --save-dev typescript @types/react @types/node
+18. Ejecutar: npm run dev
+
+19. Crear el archivo: next-env.d.ts
+
+20. Crear el archivo: tsconfig.json
+
+** Creación de API con NextJS ** 
+
+21. Crear el archivo: index.d.ts 
+
+22. Crear la carpeta: database 
+
+23. Crear el archivo: database/data.js
+
+24. Crear el archivo: database/db.js
+
+25. Cambiar extension de nuestros archivos a .tsx
+
+26. Crear la carpeta: pages/api
+
+27. Crear la carpeta: pages/api/avo
+
+28. Crear el archivo: pages/api/avo/index.ts
+
+29. Ir a la ruta: http://localhost:3000/api/avo
+
+
